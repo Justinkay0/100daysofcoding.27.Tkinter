@@ -65,7 +65,7 @@ num.grid(row=1, column=1)
 
 # Convert mile
 def convert():
-    num.config(text=round(float(miles_entry.get()) * 0.62137273664980675307890191009979, 2))
+    num.config(text=round(float(miles_entry.get()) / 0.62137273664980675307890191009979, 2))
 
 
 # Calc button
